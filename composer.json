@@ -7,5 +7,21 @@
             "email": "renakdup@gmail.com"
         }
     ],
-    "require": {}
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress/wordpress",
+                "version": "6.2.2",
+                "type": "wordpress-core",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/WordPress/WordPress/archive/refs/tags/6.2.2.zip"
+                }
+            }
+        }
+    ],
+    "require": {
+        "wordpress/wordpress": "^6.2"
+    }
 }
