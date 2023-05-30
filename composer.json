@@ -23,5 +23,8 @@
     ],
     "require": {
         "wordpress/wordpress": "^6.2"
+    },
+    "scripts": {
+        "post-install-cmd": "cp -r ./vendor/wordpress/wordpress/* ./"
     }
 }
