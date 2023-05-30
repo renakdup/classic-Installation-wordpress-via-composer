@@ -1,4 +1,4 @@
-# composer-with-wordpress
+# Composer installing WordPress core and plugins
 Example of using Composer for installing WordPress core and plugins
 
 ## Installation
