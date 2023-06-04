@@ -23,16 +23,13 @@
 /wp-includes
 /wp-admin
 
-!/wp-content
 /wp-content/*
+!/wp-content
 
-/wp-content/mu-plugins/
-!/wp-content/mu-plugins/
-
-!/wp-content/plugins/
 /wp-content/plugins/*
+!/wp-content/plugins/
 !/wp-content/plugins/CustomPluginName
 
-!/wp-content/themes/
 /wp-content/themes/*
+!/wp-content/themes/
 !/wp-content/themes/CutsomTheme
