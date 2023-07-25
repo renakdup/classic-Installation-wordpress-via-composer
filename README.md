@@ -1,5 +1,5 @@
-# composer-with-wordpress
-Example of using Composer for installing WordPress core and plugins
+# Install WordPress via Composer
+Example of using Composer for installing WordPress core and plugins.
 
 ## Installation
 - Install Composer locally or you can use docker container and run commands inside a container   
