@@ -1,5 +1,15 @@
-# Install WordPress via Composer
-Example of using Composer for installing WordPress core.
+# Classic Installation WordPress via Composer
+Example of using Composer for installing WordPress core in your project.  
+
+The classic option is when we place all WordPress core files in the root of the project, along with the project files.
+This option has its advantages and disadvantages.
+
+**Advantages:**
+- All plugins are compatible with this project structure.
+
+**Disadvantages:**
+- The core files can get in the way when working with the project, as they are combined with your project files.
+
 
 ## Installation
 - Install Composer locally or you can use docker container and run commands inside a container   
