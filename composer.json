@@ -25,6 +25,6 @@
         "wordpress/wordpress": "^6.2"
     },
     "scripts": {
-        "post-install-cmd": "cp -r ./vendor/wordpress/wordpress/* ./"
+        "post-install-cmd": "mkdir -p ./wp && cp -r ./vendor/wordpress/wordpress/* ./wp"
     }
 }
